@@ -1,0 +1,103 @@
+.main-footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+button{
+    margin-left: 5px;
+}
+
+.table-actions{
+    width: 150px;
+}
+
+.navbar-static-top{
+    background-color: #222d32 !important;
+}
+
+.sidebar-toggle{
+    color: white !important;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid #0001;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    height: 25rem;
+}
+.card-buttons button{
+    border: 1px solid #0001;
+}
+.card-buttons input{
+    border: 1px solid #0001;
+    width: 4rem;
+    cursor: pointer;
+    text-align: center;
+}
+.qtdLunche{
+    background-color: green;
+    position: absolute;
+    top: -10px;
+    left: 85%;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 1;
+    font-weight: bold;
+}
+.listCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card img{
+    width: 13rem;
+    height: 10rem;
+}
+.note{
+    border-left: 1px solid #0002;
+    height: 40rem;
+    background-color: #fff5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.note input{
+    width: 70%;
+    margin-bottom: 2rem;
+}
+.hide-note, .hide-btn-deliver{
+    display: none;
+}
+.btn-deliver{
+    border: 1px solid #0001;
+    width: 70%;
+    color: black;
+}
+.deliver{
+    margin-top:5%;
+    font-size:2rem;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    width: 100%;
+}
+.resume-deliver{
+    font-size:2rem;
+}
